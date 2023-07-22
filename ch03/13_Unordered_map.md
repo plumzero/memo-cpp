@@ -88,3 +88,7 @@ unordered_map 容器中的元素是无序，因此也不需要成员函数 upper
 参考 map 。
 
 
+### map 与 unordered_map 的比较
+
+- map 容器的用法与 unordered_map 容器类似，只是 map 中的元素是有序存储的，而 unordered_map 容器的内部元素是无序的，unordered_map 容器的查找速度更快。unordered_map 占用的内存空间比 map 大。
+- 非频繁的查询或者考虑有序性时采用 map 比较稳定；频繁的查询或者不需要考虑有序性时采用 unordered_map 更好。
