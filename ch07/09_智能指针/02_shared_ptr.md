@@ -14,7 +14,7 @@ shared_ptr 支持所有构造，支持指针构造。
 
 shared_ptr 不能通过直接将原始指针赋值来初始化，需要通过构造函数和辅助方法初始化。
 
-通过构造函数与赋值构造函数初始化:
+通过构造函数初始化:
 ```c++
     std::shared_ptr<int> p(new int(1));
     std::shared_ptr<int> p2 = p;
